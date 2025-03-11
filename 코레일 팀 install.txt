@@ -1,0 +1,29 @@
+코레일 팀 npm install
+
+  - swiper
+      $ npm i swiper@6.8.4 
+
+  - mui
+      $ npm install @mui/material@6.4.5 @emotion/react @emotion/styled @mui/lab @mui/styled-engine-sc styled-components
+      $ npm install @mui/styled-engine-sc styled-components
+
+  - react-scroll
+      $ npm i react-scroll
+
+  - firebase
+      $ npm install firebase
+
+  - bootstrap
+      $ npm install react-bootstrap bootstrap
+
+  - React Icons
+      $ npm install react-icons --save
+
+
+-----------------------------------------------------------------
+$ npm install react-router-dom --save
+$ npm i @mui/icons-material
+
+npm install react@18 react-dom@18
+npm install web-vitals
+npm install --save aos@next   -완전 최신버전
