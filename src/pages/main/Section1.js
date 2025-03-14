@@ -20,7 +20,6 @@ function Section1() {
     
             <div className="visualBox">
                 <Swiper
-                    
                     slidesPerView={1}
                     navigation={{ clickable: true }}
                     pagination={{ clickable: true }}
