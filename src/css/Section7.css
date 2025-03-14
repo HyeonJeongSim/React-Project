@@ -114,20 +114,4 @@
     .voc .icon {
         width: 5rem;
     }
-
-    footer .top {
-        flex-direction: row;
-    }
-
-    footer .familysiteWrap {
-        flex-direction: column;
-    }
-
-    footer .rule {
-        flex-direction: column;
-        gap: 10px;
-        font-size: .89rem;
-        align-items: center;
-    }
-
 }

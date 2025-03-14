@@ -520,6 +520,34 @@ footer .top_move:hover .topMenuIcon {
   }
 
 }
-@media screen and (max-width:360px){
 
+@media screen and (max-width:414px) {
+  .voc dl dt{
+      font-size: 1.6rem;
+  }
+  .voc dl dd{
+    font-size: 1.3rem;
+  }
+  .voc dl dd:nth-of-type(2){
+      font-size: 1.16rem;
+      width: 95%;
+  }
+}
+
+
+@media screen and (max-width:384px){
+  footer .top {
+      flex-direction: row;
+    }
+  
+    footer .familysiteWrap {
+      flex-direction: column;
+    }
+  
+    footer .rule {
+      flex-direction: column;
+      gap: 10px;
+      font-size: .89rem;
+      align-items: center;
+    }
 }
