@@ -46,21 +46,21 @@
   text-align: center;
   text-transform: uppercase;
   font-size: 2.5rem;
-  background: #fff;
-  width: max-content;
+  width: 100%;
   height: 50px;
-  padding: 1% 10%;
-  border-radius: 50px;
-  border: 2px solid #0166b3;
+  padding: 1% 0;
+  border-top: 3px solid #0166b3;
   text-align: center;
   position: relative;
   z-index: 5;
   left: 50%;
   transform: translate(-50%);
   line-height: 2.9rem;
+  border-bottom: 1px solid #ccc;
+  margin: 100px 0;
 }
 
-.sub5 .output_box::before {
+/* .sub5 .output_box::before {
   content: "";
   width: 100%;
   height: 40px;
@@ -71,7 +71,7 @@
   left: 0;
   z-index: 1;
   border-radius: 50px;
-}
+} */
 
 /* 검색창 */
 .sub5 .serch_box {
@@ -88,7 +88,7 @@
 .sub5 .serch_box #title {
   font-size: 1.2rem;
   color: #333;
-  border-bottom: 3px solid #0166b3;
+  border-bottom: 2px solid #0166b3;
   width: 500px;
   padding-bottom: 2%;
 }
@@ -123,7 +123,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin: 15px 0 100px;
+  margin: 15px 0;
   gap: 20px;
 }
 
@@ -235,6 +235,7 @@
 .facility_item img {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
   object-fit: cover;
 }
 
@@ -248,6 +249,8 @@
   padding: 5%;
   display: flex;
   justify-content: space-between;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .facility_info dl {
@@ -324,17 +327,19 @@
   }
   .sub5 .staName {
     font-size: 2rem;
+    margin: 80px 0;
   }
   .sub5 .search_nameWrap {
     width: 100%;
     height: 50px;
   }
   .sub5 .search_name {
-    margin: 0;
+    /* margin: 0;
     position: relative;
     top: -110px;
     justify-content: center;
-    gap: 20px;
+    gap: 20px; */
+    display: none;
   }
   .sub5 .serch_box form {
     flex-direction: column;
@@ -344,7 +349,7 @@
 
   .sub5 .serch_box #btn {
     width: 100%;
-    margin: 0 auto 150px;
+    margin: 0 auto;
   }
 
   .facility_list {
@@ -409,9 +414,6 @@
   }
   .sub5 .output_box .output_info table thead th {
     font-size: 1.2rem;
-  }
-  .sub5 .search_name {
-    display: none;
   }
 }
 
