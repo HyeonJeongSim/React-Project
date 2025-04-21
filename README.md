@@ -24,7 +24,7 @@
 - **Firebase Firestore DB**를 활용하여 **역위치정보** 데이터 처리
 
 ## 활용 기능
-- **Firebase Firestore DB** : Firebase Firestore에서 station 컬렉션 데이터를 가져와 역 정보를 검색하고 표시되도록 구현했습니다. 사용자가 입력한 역명을 검색하여 해당 역의 정보를 필터링하고, 검색된 정보를 TaskDisplay 컴포넌트에 전달하여 기본 정보와 층별 시설 안내를 표시합니다. 또한, KakaoMap 컴포넌트를 사용해 각 역의 출입구 정보를 지도상에 표시되도록 설계했습니다.
+- **Firebase Firestore DB** : Firebase Firestore에서 station 컬렉션 데이터를 가져와 역 정보를 검색하고 표시되도록 구현했습니다. 사용자가 입력한 역명을 검색하여 해당 역의 정보를 필터링하고, 검색된 정보를 TaskDisplay 컴포넌트에 전달하여 기본 정보와 층별 시설 안내를 표시했습니다. 또한, KakaoMap 컴포넌트를 사용해 각 역의 출입구 정보를 지도상에 표시되도록 설계했습니다.
 - **Header** : 스크롤 이벤트를 통해 window.scrollY 값을 확인하고, 특정 위치(780px) 이상일 때 header의 스타일을 동적으로 변경하여 sticky 효과를 구현하였습니다. 사용자 편의를 위해 화면 크기가 768px 이하일 경우 햄버거 메뉴가 토글되며, 메뉴의 열림/닫힘 상태는 isSwitched 상태로 관리합니다. 접근성을 고려하여 본문 바로가기와 글로벌 네비게이션 바로가기 링크를 추가했습니다.
 - **Visual Section** : **Swiper Library**를 사용하여 슬라이드 기능을 구현했습니다. autoplay로 자동 전환 타이밍을 2.5초로 설정하고, speed로 전환 속도를 1.5초로 조정했습니다. effect="fade"와 fadeEffect를 사용해 부드러운 페이드 효과를 적용하며, loop 속성으로 슬라이드가 반복되도록 설정했습니다. 사용자 상호작용을 위한 내비게이션과 페이지네이션도 추가하여 직접 슬라이드를 넘길 수 있습니다.
 - **Footer** : "계열사"와 "관련사이트" 항목을 토글할 수 있는 기능으로 family Site를 설계했습니다. useState를 사용하여 각각 isSwitched와 isSwitched2 상태를 관리했습니다. 각 버튼 클릭 시 isSwitched와 isSwitched2 상태 값에 따라 삼항 연산자를 사용해 ul의 클래스명을 동적으로 변경했으며, 이를 통해 목록이 보이거나 숨겨집니다. 각 링크는 새 창에서 열리도록 target="_blank"와 rel="noopener noreferrer" 속성을 설정했습니다.
